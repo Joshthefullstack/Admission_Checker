@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-image: url("./layered-steps-haikei.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: none;
+  
+}
+
+.container {
+  /* border: 1px solid red;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px);
+    
+    width: 50%; */
+  background: rgba(24, 15, 15, 0.244);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(3.7px);
+  border: 1px solid rgba(51, 31, 31, 0.3);
+  padding: 1em;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1{
+    margin-bottom: .7em;
+    /* text-align: center; */
+}
+
+.check_circle{
+  content: '';
+  width: 10px;
+  height: 10px;
+  /* border: 1px solid red; */
+}
+
+.second_flex{
+  /* border: 1px solid red; */
+  margin-top: 2.8em;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 90%; */
+    margin: 0 auto;
+    margin-bottom: 1.3em;
+}
+
+.flex input{
+    padding: .6em;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    /* border: 1px solid red; */
+}
+
+.flex img{
+    width: 15%;
+}
+
+.flex select{
+    padding: .6em;
+    border-radius: 5px; 
+    background-color: #190075;
+    color: white;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 5em;
+}
+
+.second_flex label{
+  margin-right: 5em;
+  /* border: 1px solid red; */
+}
+
+button{
+    padding: .6em;
+    border-radius: 5px; 
+    background-color: #190075;
+    color: white;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-size: .9rem;
+    display: flex;
+    /* justify-content: center; */
+    font-weight: 550;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+}
+
+#result{
+    text-align: center;
+    /* border: 1px solid red; */
+    font-size: 1.3rem;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="first_flex">
+            <div class="flex">
+                <img src="unilag.png" alt="">
+                <h1>Unilag Admission Checker</h1>
+            </div>
+            
+            <div class="flex">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name_input">
+                <span class="check_circle"></span>
+            </div>
+            <div class="flex">
+                <label for="age">Age:</label>
+                <input type="text" name="age" id="age_input">
+                <span class="check_circle"></span>
+            </div>
+            <div class="flex">
+                <label for="jambScore">JAMB Score:</label>
+                <input type="text" name="jambScore" id="jamb_input">
+                <span class="check_circle"></span>
+            </div>
+            <div class="flex">
+                <label for="one_sitting">One Sitting:</label>
+                <input type="text" name="one_sitting" id="one_sitting_input">
+                <span class="check_circle"></span>
+            </div>
+            <div class="flex">
+                <label for="olevel_english">OLevel English:</label>
+                <input type="text" name="olevel_english" id="olevel_english_input">
+                <span class="check_circle"></span>
+            </div>
+            <div class="flex">
+                <label for="olevel_maths">Olevel Maths:</label>
+                <input type="text" name="olevel_maths" id="olevel_maths_input">
+                <span class="check_circle"></span>
+            </div>
+        </div>
+       <div class="second_flex">
+        <div class="flex">
+            <select name="olevel_subject" id="subject">
+                <option value="Physics">Physics</option>
+                <option value="Chemistry">Chemistry</option>
+                <option value="Civic_Education">Civic Education</option>
+                <option value="Literature">Literature</option>
+                <option value="Geography">Geography</option>
+                <option value="Government">Government</option>
+                <option value="Economics">Economics</option>
+            </select>
+            <input type="text" name="olevel_subject" id="olevel_subject1_input">
+            <span class="check_circle"></span>
+        </div>
+        <div class="flex">
+            <select name="olevel_subject" id="subject">
+                <option value="Physics">Physics</option>
+                <option value="Chemistry">Chemistry</option>
+                <option value="Civic_Education">Civic Education</option>
+                <option value="Literature">Literature</option>
+                <option value="Geography">Geography</option>
+                <option value="Government">Government</option>
+                <option value="Economics">Economics</option>
+            </select>
+            <input type="text" name="olevel_subject" id="olevel_subject2_input">
+            <span class="check_circle"></span>
+        </div>
+        <div class="flex">
+            <select name="olevel_subject" id="subject">
+                <option value="Physics">Physics</option>
+                <option value="Chemistry">Chemistry</option>
+                <option value="Civic_Education">Civic Education</option>
+                <option value="Literature">Literature</option>
+                <option value="Geography">Geography</option>
+                <option value="Government">Government</option>
+                <option value="Economics">Economics</option>
+            </select>
+            <input type="text" name="olevel_subject" id="olevel_subject3_input">
+            <span class="check_circle"></span>
+        </div>
+        
+        <div class="flex">
+            <label for="post_utme">Post Utme:</label>
+            <input type="text" name="post_utme" id="post_utme_input">
+            <span class="check_circle"></span>
+        </div>
+        <div class="flex">
+            <label for="state_of_origin">State Of Origin:</label>
+            <input type="text" name="state_of_origin" id="state_of_origin_input">
+            <span class="check_circle"></span>
+        </div>
+       </div>
+        
+
+
+    </div>
+    <button id="checkAdmission">Check Admission</button>
+    <p id="result"></p>
+    <script src="./index.js"></script>
+</body>
+</html>
